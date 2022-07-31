@@ -1,0 +1,30 @@
+
+{%load static%}
+<html>
+
+    <head>
+
+      <title>Django and GEE</title>
+
+      {{ map.header.render|safe }}
+     
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+      
+    </head>
+
+<body>
+<h1>NDVI and EVI FROM MODIS DATA</h1>
+      <div class="row">
+        <div class="col-md-12">
+          {{map.html.render|safe}}
+        </div>
+      </div>
+
+      <script>
+
+        {{ map.script.render|safe }}
+
+      </script>
+
+</body>
+</html>
