@@ -1,6 +1,6 @@
-# GEE
-Interactive web mapping with Django and Google Earth Engine.
-A web map where the user can view different vegetation indices of different satellite imagery.
+# Webmap
+Interactive web mapping with Django and Google Earth Engine.<br>
+A web map where the user can view different vegetation indices of different satellite imagery.<br>
 Currently, only MODIS images are on display.
 
 #### User stories: 
